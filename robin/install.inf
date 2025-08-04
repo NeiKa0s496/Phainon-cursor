@@ -1,0 +1,55 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%loc%,%10%\%CUR_DIR%\%person%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl,,1"
+
+[Scheme.Cur]
+alternate.ani
+busy.ani
+cross.ani
+dgn1.ani
+dgn2.ani
+handwriting.ani
+help.ani
+horz.ani
+link.ani
+loc.ani
+move.ani
+person.ani
+pointer.ani
+text.ani
+unavailable.ani
+vert.ani
+working.ani
+
+
+[Strings]
+CUR_DIR       = "Cursors\Robin"
+SCHEME_NAME   = "Robin VSThemesORG"
+pointer       = "pointer.ani"
+help          = "help.ani"
+work          = "working.ani"
+busy          = "busy.ani"
+text          = "text.ani"
+unavailable   = "unavailable.ani"
+vert          = "vert.ani"
+horz          = "horz.ani"
+dgn1          = "dgn1.ani"
+dgn2          = "dgn2.ani"
+move          = "move.ani"
+link          = "link.ani"
+cross         = "cross.ani"
+hand          = "handwriting.ani"
+alternate     = "alternate.ani"
+loc      = "loc.ani"
+person = "person.ani"
