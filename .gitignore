@@ -1,0 +1,7 @@
+# Exclude the virtual environment directory
+venv/
+.env/
+
+# IDE/Editor specific
+.vscode/
+.idea/
